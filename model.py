@@ -6,9 +6,7 @@ from datetime import datetime
 import pandas as pd
 from sqlalchemy import create_engine
 
-engine = create_engine(
-    "postgresql://robot-startml-ro:pheiph0hahj1Vaif@"
-    "postgres.lab.karpov.courses:6432/startml")
+engine = create_engine("Here was the address")
 
 app = FastAPI()
 
